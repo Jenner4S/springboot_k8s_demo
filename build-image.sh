@@ -1,4 +1,5 @@
-
+# shellcheck disable=SC1113
+# /bin/sh
 # 基于指定目录下的Dockerfile构建镜像
 docker build -t registry.cn-hangzhou.aliyuncs.com/isoftbao/springboot_k8s_demo:v1.0 .
 
